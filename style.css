@@ -68,7 +68,7 @@ body {
 
 .home-content {
     max-width: 600px;
-    margin-bottom: 40px; /* added margin for spacing */
+    margin-bottom: 40px;
 }
 
 .home-content h1 {
@@ -224,16 +224,6 @@ body {
     }
 } 
 
-/*about.html*/
-
-
-
-/*question.html*/
-
-
-
-
-/* Media Queries for responsiveness */
 @media (max-width: 768px) {
     .header {
         padding: 10px 5%;

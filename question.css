@@ -1,18 +1,16 @@
-.h1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
+.page-title {
+    text-align: center;
+    padding: 20px 0;
     color: #fff;
 }
+
 .question-form-container {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    box-shadow: 0 0 10px rgb(255, 255, 255);
-    background-color: #000000;
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+    background-color: #000;
     border-radius: 5px;
 }
 
@@ -28,18 +26,20 @@
 .question-form label {
     margin-bottom: 5px;
     font-weight: bold;
+    color: #fff;
+    display: block;
 }
 
 .question-form input,
 .question-form textarea {
     margin-bottom: 15px;
     padding: 10px;
-    border: 1px solid #000000;
+    border: 1px solid #333;
     border-radius: 3px;
     font-size: 16px;
     width: 100%;
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-color: #111;
     color: #fff;
 }
 
@@ -56,10 +56,4 @@
 .question-form button:hover {
     background-color: #e9fa00;
 }
-
-/* Ensure the styles are scoped and do not interfere with other styles */
-body .question-form-container * {
-    all: unset;
-    display: revert;
-} 
-
+ 
